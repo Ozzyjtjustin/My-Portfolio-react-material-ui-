@@ -9,6 +9,7 @@ export class RonQuote extends React.Component{
       ronsQuote: null
     }
   }
+  
   componentDidMount(){
     fetch("https://ron-swanson-quotes.herokuapp.com/v2/quotes")
       .then(res => res.json())

@@ -13,8 +13,11 @@ class App extends Component {
   }
 
   workClickHandle = () => {
-    console.log('clicked')
     return this.setState({pageFill: 'work'})
+  }
+
+  homeClickHandle = () => {
+    return this.setState({pageFill: null})
   }
 
 
@@ -31,7 +34,7 @@ class App extends Component {
               <nav className="navbar">
                 <div className="navLinks" onClick={()=>this.workClickHandle()}>Work</div>
                 <div className="navLinks" >Bio</div>
-                <div className="navLinks" >Home</div>
+                <div className="navLinks" onClick={()=>this.homeClickHandle()}>Home</div>
               </nav>
             </div>
             <div className="subPage">
