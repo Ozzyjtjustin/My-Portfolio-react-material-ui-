@@ -5,7 +5,10 @@
 
 
 .ronsQuote{
-  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  color: lightgrey;
   font-family: cursive;
   text-align: center;
   background-color: rgba(0,0,0,.55);
@@ -80,19 +83,21 @@
 
 #background {
   background-image: url('https://www.worcester.ac.uk/content_images/web-development-university-worcester-course-page-header.jpg');
-  background-size:  contain;
-  background-position: center center;
-  position: relative;
+  background-size: cover;
   top: 0;
   bottom: 0;
-  height: 350vh;
+  height: 5000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
 
 }
 #background-overlay {
+  background-attachment: fixed;
   position: absolute;
   top: 0;
   bottom: 0;
-  height: 100%;
+  height: 5000px;
   width: 100%;
   background-color: rgba(0,0,0,.4)
 
