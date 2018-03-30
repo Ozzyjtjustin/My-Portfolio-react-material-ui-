@@ -4,15 +4,6 @@
 }
 
 
-.ronsQuote{
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: repeat;
-  color: lightgrey;
-  font-family: cursive;
-  text-align: center;
-  background-color: rgba(0,0,0,.55);
-}
 
 #me {
   height: 200px;
@@ -33,20 +24,7 @@
   top: 20px
 }
 
-.navbar {
-  top: 7px;
-  font-size: 25px;
-  font-family: Georgia, serif;
-  display: flex;
-  justify-content: flex-end;
-  background-color: rgba(0,0,0,.7);
-}
 
-.navLinks {
-  padding-left: 90px;
-  padding-right: 90px;
-  border: solid 3px #731e1e;
-}
 
  .jumbo{
    height: 365px;

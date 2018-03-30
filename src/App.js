@@ -24,23 +24,40 @@ class App extends Component {
   render() {
     return (
       <div id="body">
+
         <div className="img1">
+          <div className="topQuote">
+            <div className="border">
+              <div>
+                Every once in a while, a new technology, an old problem, and a big idea turn into an innovation.
+              </div>
+              <div>
+                - Dean Kamen
+              </div>
+            </div>
+          </div>
           <div className="imgText">
-            <span className="border">
-              Every once in a while, a new technology, an old problem, and a big idea turn into an innovation. Dean Kamen
-            </span>
+            <div className="border">
+              <div className='name'>
+                Justin Oswald
+              </div>
+              <div className='title'>
+                FullStack JavaScript Developer
+              </div>
+            </div>
+            <nav className="navbar">
+              <div className="navLinks" onClick={()=>this.workClickHandle()}>Work</div>
+              <div className="navLinks" >Bio</div>
+              <div className="navLinks" onClick={()=>this.homeClickHandle()}>Home</div>
+            </nav>
           </div>
         </div>
         <section className="section section-light">
-          <h2>section one</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque suscipit tempora cumque ex minus doloribus sint tempore, eum, blanditiis velit similique deserunt eius aperiam maxime adipisci neque aliquam praesentium perferendis accusantium! Ullam incidunt quo, quidem rem praesentium porro id quia nulla doloremque quis, tempore debitis eligendi? Quae excepturi eligendi ipsa necessitatibus quidem consectetur ut voluptates magni iure unde ipsum quo architecto ducimus repellat sed magnam maiores illo et dolor, dolorem libero pariatur sequi aperiam possimus! Expedita tenetur enim cumque ipsum ex, sapiente omnis alias, aperiam nihil dicta illum ipsa laboriosam provident assumenda ut inventore nobis aliquid tempora necessitatibus optio aut.
-          </p>
+          <p><RonQuote/></p>
         </section>
         <div className="img2">
           <div className="imgText">
             <span className="border trans">
-              second image
             </span>
           </div>
         </div>
@@ -53,7 +70,6 @@ class App extends Component {
         <div className="img3">
           <div className="imgText">
             <span className="border trans">
-              third image
             </span>
           </div>
         </div>
@@ -66,7 +82,6 @@ class App extends Component {
         <div className="img1">
           <div className="imgText">
             <span className="border">
-              first image
             </span>
           </div>
         </div>

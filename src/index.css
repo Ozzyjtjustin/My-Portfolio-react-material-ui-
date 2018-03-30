@@ -3,12 +3,27 @@ body, html {
     margin: 0;
     font-size: 16px;
     font-family: 'lato', sans-serif;
-    font-weight: 400;
+    font-weight: 450;
     line-height: 1.8em;
     color: #666
   }
 #body{
   height: 100%;
+}
+.navbar {
+  top: 7px;
+  font-size: 25px;
+  font-family: Georgia, serif;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff42
+
+}
+
+.navLinks {
+  padding-left: 90px;
+  padding-right: 90px;
+  color: black
 }
 
 .img1, .img2, .img3{
@@ -22,15 +37,15 @@ body, html {
 }
 
 .img1{
-  background-image: url('./assets/thought-bubble-lightbulb.jpeg');
+  background-image: url('./assets/img1.jpg');
   min-height: 100%;
 }
 .img2{
-  background-image: url('./assets/splash.jpeg');
+  background-image: url('./assets/bulb.jpg');
   min-height: 400px;
 }
 .img3{
-  background-image: url('./assets/dark-lightbulb.jpeg');
+  background-image: url('./assets/splash.jpeg');
   min-height: 400px;
 }
 .section{
@@ -39,24 +54,64 @@ body, html {
 }
 .section-light{
   background-color: #f4f4f4;
-  color: #666
+  color: #580a0a
 }
 .section-dark{
   background-color: #282e34;
   color: #ddd
 }
+.imgText .name{
+  color:black;
+}
+.imgText .title{
+  color: black;
+  font-size:  25px;
+}
 .imgText{
-  height:auto;
   position: absolute;
   top: 50%;
   width: 100%;
   text-align: center;
-  color: #000;
-  font-size: 30px;
+  color: black;
+  font-size: 50px;
   line-height: normal;
   letter-spacing: 8px;
   text-transform: uppercase;
 }
+
 .imgText .border{
-  background-color:
+  margin-left: 20%;
+  margin-right: 20%;
+  color: #580a0a;
+}
+
+.topQuote{
+  position: absolute;
+  width: 100%;
+  top: 4%;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  font-weight: 200;
+  line-height: normal;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  background-color: rgba(0,0,0,.7);
+}
+
+.topQuote .border{
+  margin-left: 20%;
+  margin-right: 20%;
+  color: white;
+  margin-top: 7px;
+}
+
+.ronsQuote{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  color: #580a0a;
+  font-family: cursive;
+  text-align: center;
+  font-size: 25px;
 }
